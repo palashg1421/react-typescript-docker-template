@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const MenuBar= React.lazy( () => import('../Pages/Layout/MenuBar') );
+const MenuBar= React.lazy( () => import('./layout/MenuBar') );
 
 const About = () => {
     return(
