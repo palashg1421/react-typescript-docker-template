@@ -1,14 +1,11 @@
-import * as React from 'react';
-
-const MenuBar= React.lazy( () => import('./layout/MenuBar') );
+import React from 'react';
 
 const About = () => {
-    return(
-        <>
-            <MenuBar />
-            About Page
-        </>
-    );
+  return (
+    <React.Fragment>
+      About Page
+    </React.Fragment>
+  );
 }
 
 export default React.memo(About);

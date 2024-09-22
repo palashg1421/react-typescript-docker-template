@@ -1,5 +1,5 @@
 import MyRoutes from './routing';
-import Favicon from './assets/images/logo.svg';
+import Favicon from './Assets/images/logo.svg';
 
 const App = () => {
 
@@ -7,9 +7,7 @@ const App = () => {
 	document.querySelector("link[rel~='icon']")!.setAttribute('href', Favicon);
 	document.querySelector("meta[name~='theme-color']")!.setAttribute('content', '#dc143c');
 
-	return (
-		<MyRoutes></MyRoutes>
-	);
+	return (<MyRoutes />);
 }
 
 export default App;
